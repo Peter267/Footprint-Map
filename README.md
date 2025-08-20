@@ -4,6 +4,10 @@
 
 一个展示个人旅行足迹的交互式地图应用，基于Leaflet.js开发，可直观展示去过的城市、到访时间、形式及相关笔记。
 
+## 网站截图
+<img width="1499" height="814" alt="image" src="https://github.com/user-attachments/assets/1db8ddc6-5a21-49b2-99e3-ef3b5ecc5a41" />
+
+
 ## 功能特点
 
 - 交互式地图展示个人到访过的城市
