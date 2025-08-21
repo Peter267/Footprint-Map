@@ -60,3 +60,7 @@
 ## 致谢
 
 感谢所有开源项目的贡献者，使得本项目得以顺利开发。
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Peter267/Footprint-Map&type=Date)](https://www.star-history.com/#Peter267/Footprint-Map&Date)
