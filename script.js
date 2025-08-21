@@ -70,7 +70,7 @@ const myVisitedCities = [
         name: "荣成",
         lat: 37.1600,
         lng: 122.4200,
-        date: "2025年8月",
+        date: "2024年8月",
         type: "旅游",
         note: "威海下辖县级市，沙滩很好玩，气候宜人"
     },
