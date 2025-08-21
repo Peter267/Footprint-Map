@@ -145,7 +145,7 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r
 
 // ---- 自定义图标 ----
 // 为了让不同类型的访问显示不同图标，我们创建一个图标映射
-const iconBaseUrl = 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/';
+const iconBaseUrl = 'https://cdn.jsdelivr.net/gh/pointhi/leaflet-color-markers/img/'; // <-- 修改为此行
 const icons = {
     '旅游': L.icon({ iconUrl: `${iconBaseUrl}marker-icon-2x-blue.png`, shadowUrl: `${iconBaseUrl}marker-shadow.png`, iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41] }),
     '研学': L.icon({ iconUrl: `${iconBaseUrl}marker-icon-2x-green.png`, shadowUrl: `${iconBaseUrl}marker-shadow.png`, iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41] }),
