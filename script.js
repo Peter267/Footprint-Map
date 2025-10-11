@@ -3,7 +3,7 @@
 // ==================================================================
 const myVisitedCities = [
     {
-        name: "北京",
+        name: "北京市",
         lat: 39.9042, 
         lng: 116.4074, 
         date: "经常去",
@@ -11,7 +11,7 @@ const myVisitedCities = [
         note: "宏伟的紫禁城，还有圆明园、颐和园、天坛、景山公园、鸟巢等"
     },
     {
-        name: "天津",
+        name: "天津市",
         lat: 39.0842,
         lng: 117.2010,
         date: "2012至今",
@@ -19,7 +19,7 @@ const myVisitedCities = [
         note: "我就住在这"
     },
     {
-        name: "保定",
+        name: "保定市",
         lat: 38.8510,
         lng: 115.4900,
         date: "经常去",
@@ -27,7 +27,7 @@ const myVisitedCities = [
         note: "我妈的老家，直隶总督府很好看"
     },
     {
-        name: "菏泽",
+        name: "菏泽市",
         lat: 35.2338,
         lng: 115.4410,
         date: "经常去",
@@ -35,7 +35,7 @@ const myVisitedCities = [
         note: "我爸的老家，牡丹之乡"
     },
     {
-        name: "哈尔滨",
+        name: "哈尔滨市",
         lat: 45.7560,
         lng: 126.6420,
         date: "2025年8月",
@@ -43,7 +43,7 @@ const myVisitedCities = [
         note: "东北虎林园、伏尔加庄园，都豪好玩"
     },
     {
-        name: "沈阳",
+        name: "沈阳市",
         lat: 41.7960,
         lng: 123.4300,
         date: "2025年8月",
@@ -51,7 +51,7 @@ const myVisitedCities = [
         note: "历史气息厚重的一座城市"
     },
     {
-        name: "上海",
+        name: "上海市",
         lat: 31.2304,
         lng: 121.4737,
         date: "2025年7月",
@@ -59,7 +59,7 @@ const myVisitedCities = [
         note: "中国最发达的城市，高大的防御塔（东方明珠），遍地的星巴克和哈根达斯，一个没看见的蜜雪冰城"
     },
     {
-        name: "威海",
+        name: "威海市",
         lat: 37.5130,
         lng: 122.1200,
         date: "2024年8月",
@@ -67,7 +67,7 @@ const myVisitedCities = [
         note: "沙滩很好玩，气候宜人，儿童友好"
     },
     {
-        name: "荣成",
+        name: "荣成县",
         lat: 37.1600,
         lng: 122.4200,
         date: "2024年8月",
@@ -75,7 +75,7 @@ const myVisitedCities = [
         note: "威海下辖县级市，沙滩很好玩，气候宜人"
     },
     {
-        name: "青岛",
+        name: "青岛市",
         lat: 36.0671,
         lng: 120.3826,
         date: "2019年7月",
@@ -83,7 +83,7 @@ const myVisitedCities = [
         note: "宽广的沙滩，高大的崂山"
     },
     {
-        name: "大连",
+        name: "大连市",
         lat: 38.9140,
         lng: 121.6140,
         date: "2023年8月",
@@ -91,7 +91,7 @@ const myVisitedCities = [
         note: "遍地沙滩"
     },
     {
-        name: "大同",
+        name: "大同市",
         lat: 40.0768,
         lng: 113.3000,
         date: "2024年5月",
@@ -99,7 +99,7 @@ const myVisitedCities = [
         note: "悬空寺、云冈石窟都很不错"
     },
     {
-        name: "济南",
+        name: "济南市",
         lat: 36.6512,
         lng: 117.1200,
         date: "忘了",
@@ -107,15 +107,31 @@ const myVisitedCities = [
         note: "趵突泉很有意思呢"
     },
     {
-        name: "锡林郭勒盟",
-        lat: 43.9334,
-        lng: 116.0860,
+        name: "承德市",
+        lat: 40.9710,
+        lng: 117.9630,
         date: "忘了",
         type: "旅游",
-        note: "一望无际的大草原"
+        note: "完全不记得去过"
     },
     {
-        name: "蓟州",
+        name: "秦皇岛市",
+        lat: 39.9354,
+        lng: 119.6000,
+        date: "忘了",
+        type: "旅游",
+        note: "完全不记得去过"
+    },
+    {
+        name: "克什克腾旗",
+        lat: 43.2644,
+        lng: 117.5360,
+        date: "忘了",
+        type: "旅游",
+        note: "壮美的草原（乌兰布统）风光"
+    },
+    {
+        name: "蓟州区",
         lat: 40.0458,
         lng: 117.4080,
         date: "经常去",
@@ -123,12 +139,12 @@ const myVisitedCities = [
         note: "天津的后花园，有盘山、黄崖关长城等著名景点，自然风光与历史遗迹完美结合"
     },
     {
-    name: "泰安",
-    lat: 36.2000,
-    lng: 117.0800,
-    date: "忘了", 
-    type: "旅游", 
-    note: "很小的时候去的，泰山没爬，地下漂流很好玩！"
+        name: "泰安市",
+        lat: 36.2000,
+        lng: 117.0800,
+        date: "忘了", 
+        type: "旅游", 
+        note: "很小的时候去的，泰山没爬，地下漂流很好玩！"
     },
     {
         name: "唐山市",
@@ -167,7 +183,7 @@ const icons = {
     '研学': L.icon({ iconUrl: `${iconBaseUrl}marker-icon-2x-green.png`, shadowUrl: `${iconBaseUrl}marker-shadow.png`, iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41] }),
     '出差': L.icon({ iconUrl: `${iconBaseUrl}marker-icon-2x-orange.png`, shadowUrl: `${iconBaseUrl}marker-shadow.png`, iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41] }),
     '探亲': L.icon({ iconUrl: `${iconBaseUrl}marker-icon-2x-violet.png`, shadowUrl: `${iconBaseUrl}marker-shadow.png`, iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41] }),
-    '住处': L.icon({ iconUrl: 'https://wmimg.com/i/1169/2024/09/66ec1739c38a0.png', iconSize: [30, 30], iconAnchor: [15, 30], popupAnchor: [0, -30] }), // 您自定义的“住处”图标
+    '住处': L.icon({ iconUrl: 'https://wmimg.com/i/1169/2024/09/66ec1739c38a0.png', iconSize: [30, 30], iconAnchor: [15, 30], popupAnchor: [0, -30] }), // 您自定义的"住处"图标
     // 默认图标
     'default': L.icon({ iconUrl: `${iconBaseUrl}marker-icon-2x-grey.png`, shadowUrl: `${iconBaseUrl}marker-shadow.png`, iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41] })
 };
