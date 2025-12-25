@@ -169,10 +169,11 @@ const map = L.map('map', {
 }).setView([35.8617, 104.1954], 5); // 初始视角聚焦中国
 
 // ---- 添加底图图层 ----
-L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-    subdomains: 'abcd',
-    maxZoom: 20
+L.tileLayer('https://wprd0{s}.is.autonavi.com/appmaptile?x={x}&y={y}&z={z}&lang=zh_cn&size=1&scale=1&style=7', {
+    subdomains: '1234',
+    minZoom: 3,
+    maxZoom: 18,
+    attribution: '&copy; <a href="http://www.amap.com/">高德地图</a>'
 }).addTo(map);
 
 // ---- 自定义图标 ----
